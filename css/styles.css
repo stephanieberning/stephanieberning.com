@@ -45,12 +45,6 @@ header {
   color: black;
 }
 
-/*nav {
-  position: absolute;
-  right: 15px;
-  top: 15px;
-}*/
-
 nav ul {
   list-style: none;
   text-align: right;
@@ -86,15 +80,30 @@ nav li a {
 }
 
 .content {
-  width: 1140px;
+  width: 960px;
   margin: 0 auto;
   padding: 30px 15px;
   overflow: hidden;
 }
 
+.content p {
+  line-height: 25px;
+}
+
+.content blockquote {
+  font-size: 30px;
+  font-style: italic;
+  font-family: sans-serif;
+  padding: 15px;
+  border-left: 2px solid #87b5f2;
+  width: 510px;
+  float: right;
+}
+
 .content img {
   float: left;
-  padding-right: 20px;
+  margin-right: 20px;
+  border-radius: 25px;
 }
 
 footer {
