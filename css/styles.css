@@ -30,10 +30,20 @@ body, nav ul {
 
 header {
   background: rgba(0, 0, 0, .35);
-  padding: 25px 15px;
+  padding: 10px 15px;
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+header p {
+  font-family: 'alex_brushregular';
+  display: inline;
+  color: white;
+  float: left;
+  margin: 5px 0 0 0;
+  font-size: 50px;
+
 }
 
 
@@ -48,6 +58,7 @@ header {
 nav ul {
   list-style: none;
   text-align: right;
+  margin-top: 25px;
 }
 
 nav ul li {
@@ -76,7 +87,7 @@ nav li a {
 
 .intro h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 100px;
 }
 
 .content {
@@ -104,6 +115,44 @@ nav li a {
   float: left;
   margin-right: 20px;
   border-radius: 25px;
+}
+
+.inspiration-wrapper {
+  padding: 30px;
+  overflow: hidden;
+  padding-top: 0;
+}
+
+.inspiration {
+  width: 17.8%;
+  float: left;
+  margin: 15px;
+  position: relative;
+}
+
+.inspiration img {
+  width: 100%;
+  height: auto;
+}
+
+.inspiration p {
+  display: none;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  color: #d4d4d4;
+  padding: 15px;
+  margin: 0;
+}
+
+h2 {
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+
+.inspiration:hover p {
+  display: block;
 }
 
 footer {
@@ -134,6 +183,10 @@ footer p {
 
 .social li:first-child {
   margin-left: 0;
+}
+
+.social .twitter {
+  margin-top: 5px;
 }
 
 #home main {
