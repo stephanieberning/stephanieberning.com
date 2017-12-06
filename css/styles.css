@@ -37,13 +37,16 @@ header {
 }
 
 header p {
+  margin: 5px 0 0 0;
+}
+
+header p a {
   font-family: 'alex_brushregular';
   display: inline;
   color: white;
   float: left;
-  margin: 5px 0 0 0;
   font-size: 50px;
-
+  text-decoration: none;
 }
 
 
