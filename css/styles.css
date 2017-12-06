@@ -123,11 +123,25 @@ nav li a {
   padding-top: 0;
 }
 
+.inspiration-wrapper h2 {
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 15px 0;
+}
+
 .inspiration {
-  width: 17.8%;
+  width: 19.1%;
   float: left;
-  margin: 15px;
   position: relative;
+  box-sizing: border-box;
+}
+
+.inspiration-wrapper .inspiration {
+  margin-right: 15px;
+}
+
+.inspiration-wrapper .inspiration:last-child {
+  margin-right: 0;
+  /* remove margin-right on the last inpsiration card in the wrapper */
 }
 
 .inspiration img {
